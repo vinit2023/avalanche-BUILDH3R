@@ -17,7 +17,7 @@ contract SenderOnCChain {
         messenger.sendCrossChainMessage(
             TeleporterMessageInput({
                 // Replace with blockchainID of your Subnet (see instructions in Readme)
-                destinationBlockchainID: 0xrx67cd8b9ac1dtf67u94c4b8a830594bwe45213aef8cfdb8brtx61a31rtf4fr6,
+                destinationBlockchainID: 0xrx67cd8b9ac1dtf67u94c4b8a830594bwe45213aef8cfdb8brtx61a31rtf4frk6,
                 destinationAddress: destinationAddress,
                 feeInfo: TeleporterFeeInfo({feeTokenAddress: address(0), amount: 0}),
                 requiredGasLimit: 100000,
